@@ -39,7 +39,7 @@ Consequently, we turned to a more modern approach using BERT and a pre-trained c
 
 After classifying and assessing the sentiment of the data, we connect to ChatGPT via API to generate a unique story and a prompt for each headline. Getting the "instructions" right for generating the perfect prompt was a big challenge. 
 
-## Text Generation with Midjourney
+## Image Generation with Midjourney
 
 These prompts from ChatGPT then feed into Midjourney, where they guide the creation of ultra-realistic images. Central to our brand, each image features our signature touch: a Garfield-like cat. 
 We attempted to automate sending the image prompt to midjourney using a bot and a webhook on a Discord server. However, due to certain restrictions on bot activities, we had to resort to manual intervention or find alternative solutions.
