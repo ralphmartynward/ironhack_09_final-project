@@ -51,4 +51,6 @@ We attempted to automate sending the image prompt to midjourney using a bot and 
 After obtaining the image from midjourney, we add final touches, including a banner, headline text, and an emoji, to make the post Instagram-ready.
 Finally, we post the finished image and a fitting caption to Instagram. Initially, we used Facebook's official Graph API, but after the application was rejected, we resorted to an unofficial Instagram API. Despite the challenges, this method proved successful, enabling us to post images to the main feed and stories to their appropriate categories on Instagram.
 
+![IG](https://raw.githubusercontent.com/ralphmartynward/ironhack_09_final-project/main/images/instagrampurr.png)
+
 In essence, The Purrposterous is a blend of constant content, strategic AI usage, robust classification models, and branding, all presented in a light-hearted manner. 
