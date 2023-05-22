@@ -1,6 +1,6 @@
 ![logo](https://raw.githubusercontent.com/ralphmartynward/ironhack_09_final-project/main/images/ralphward_with_martin_parrs_50mm_lens_a_garfield-like_cat._Hes__c8f5c1ee-05c4-4bd8-82ec-ca1c2cc20073.png)
 
-# The Purrposterous Project Overview
+# 🐱 The Purrposterous Project Overview
 
 Welcome to "The Purrposterous" - a project aimed at presenting satire news with a consistent theme: a Garfield-like cat making a humorous appearance in each story. This initiative brings together robust classification models, AI-based text and image generation and strategic branding, all with a hint of humor and absurdity.
 
