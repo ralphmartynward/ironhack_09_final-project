@@ -15,31 +15,31 @@ Next, I apply classification models to categorize the news articles. The ultimat
 
 My first approach involved unsupervised machine learning, where I implemented BERT clustering. However, this technique did not yield the expected results, pushing me to explore other options.
 
-### Supervised ML with Manual Labeling and BERT
+### Supervised ML with Manual Labeling via BERT
 
 Next, I transitioned to supervised ML, which required manual labeling of 400 rows of data, followed by BERT application for sequence classification and label encoding. I tweaked parameters to improve the model's effectiveness. However, this approach was still suboptimal for predicting new article categories, and overfitting was a concern.
 
-### Zero-shot Classification
+### Zero-shot Classification via DistilBERT
 
 Finally, I turned to zero-shot classification, utilizing a DistilBERT model from HuggingFace. After refining the categories to better suit our needs, this method resulted in significant improvement in our classification results.
 
-## Sentiment Analysis
+## Sentiment Analysis NLP
 
 A crucial aspect of my approach is maintaining a positive sentiment in our content. This helps circumnavigate platform restrictions (Midjourney & Instagram) and ensures our audience enjoys a pleasant experience.
 
-### NLTK Sentiment Analysis
+### Sentiment Analysis via NLTK
 
 My first venture into sentiment analysis involved the NLTK library, a more traditional NLP technique. Despite leveraging techniques such as stop words, lemmatization, and bag of words, the results were not great.
 
-### BERT Sentiment Analysis
+### Sentiment Analysis via BERT
 
 Consequently, we turned to a more modern approach using BERT and a pre-trained corpus. This approach significantly improved our sentiment analysis, providing us with a category and sentiment analysis for all titles.
 
-## Text Generation with ChatGPT 
+## Text Generation via ChatGPT 
 
 After classifying and assessing the sentiment of the data, we connect to ChatGPT via API to generate a unique story and a prompt for each headline. Getting the "instructions" right for generating the perfect prompt was a big challenge. 
 
-## Image Generation with Midjourney
+## Image Generation via Midjourney
 
 These prompts from ChatGPT then feed into Midjourney, where they guide the creation of ultra-realistic images. Central to our brand, each image features our signature touch: a Garfield-like cat. 
 We attempted to automate sending the image prompt to midjourney using a bot and a webhook on a Discord server. However, due to certain restrictions on bot activities, we had to resort to manual intervention or find alternative solutions.
