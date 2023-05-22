@@ -4,7 +4,7 @@ Welcome to "The Purrposterous" - a project aimed at presenting satire news with 
 
 ## Data Collection and Exploration
 
-The initial step involves using Reddit's API to fetch news articles from the [r/nottheonion](https://www.reddit.com/r/nottheonion/) subreddit, known for its satire news that beautifully blurs the lines between reality and absurdity. The advantage of sourcing from Reddit is the availability of human discussions, something that becomes increasingly rare in the era of AI. Moreover, these discussions often revolve around topics outside of mainstream media, thus providing potential trend insights. 
+The initial step involves using Reddit's API to fetch news articles from the [r/nottheonion](https://www.reddit.com/r/nottheonion/) subreddit, known for its satire news that beautifully blurs the lines between reality and absurdity. The advantage of sourcing from Reddit is the availability of human discussions, something that becomes increasingly rare in the era of AI. Moreover, these discussions often revolve around topics outside of mainstream media, thus providing potential trend insights. On top of this, as humans upvote and downvote posts, we can use this data to assess the popularity of each article instead of handpicking them ourselves. 
 The obtained data then undergoes exploratory data analysis and profiling. Despite there being nothing significant to report, this process is crucial in understanding our data better.
 
 ## Classification Models
