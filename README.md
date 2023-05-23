@@ -23,11 +23,11 @@ Next, I transitioned to supervised ML, which required manual labeling of 400 row
 
 ### Zero-shot Classification via DistilBERT
 
-Finally, I turned to zero-shot classification, utilizing a DistilBERT model from HuggingFace. After refining the categories to better suit our needs, this method resulted in significant improvement in our classification results.
+Finally, I turned to zero-shot classification, utilizing a DistilBERT model from HuggingFace. After refining the categories to better suit my needs, this method resulted in significant improvement in the classification results.
 
 ## Sentiment Analysis NLP
 
-A crucial aspect of my approach is maintaining a positive sentiment in our content. This helps circumnavigate platform restrictions (Midjourney & Instagram) and ensures our audience enjoys a pleasant experience.
+A crucial aspect of my approach is maintaining a positive sentiment in the content. This helps circumnavigate platform restrictions (Midjourney & Instagram) and ensures the audience enjoys a pleasant experience.
 
 ### Sentiment Analysis via NLTK
 
@@ -35,21 +35,21 @@ My first venture into sentiment analysis involved the NLTK library, a more tradi
 
 ### Sentiment Analysis via BERT
 
-Consequently, we turned to a more modern approach using BERT and a pre-trained corpus. This approach significantly improved our sentiment analysis, providing us with a category and sentiment analysis for all titles.
+Consequently, I turned to a more modern approach using BERT and a pre-trained corpus. This approach significantly improved the sentiment analysis, providing a category and sentiment analysis for all titles.
 
 ## Text Generation via ChatGPT 
 
-After classifying and assessing the sentiment of the data, we connect to ChatGPT via API to generate a unique story and a prompt for each headline. Getting the "instructions" right for generating the perfect prompt was a big challenge. 
+After classifying and assessing the sentiment of the data, I connect to ChatGPT via API to generate a unique story and a prompt for each headline. Getting the "instructions" right for generating the perfect prompt was a big challenge. 
 
 ## Image Generation via Midjourney
 
-These prompts from ChatGPT then feed into Midjourney, where they guide the creation of ultra-realistic images. Central to our brand, each image features our signature touch: a Garfield-like cat. 
-We attempted to automate sending the image prompt to midjourney using a bot and a webhook on a Discord server. However, due to certain restrictions on bot activities, we had to resort to manual intervention or find alternative solutions.
+These prompts from ChatGPT then feed into Midjourney, where they guide the creation of ultra-realistic images. Central to the brand, each image features my signature touch: a Garfield-like cat. 
+I attempted to automate sending the image prompt to midjourney using a bot and a webhook on a Discord server. However, due to certain restrictions on bot activities, I had to resort to manual intervention or find alternative solutions.
 
 ## Posting to Instagram
 
-After obtaining the image from midjourney, we add final touches, including a banner, headline text, and an emoji, to make the post Instagram-ready.
-Finally, we post the finished image and a fitting caption to Instagram. Initially, we used Facebook's official Graph API, but after the application was rejected, we resorted to an unofficial Instagram API. Despite the challenges, this method proved successful, enabling us to post images to the main feed and stories to their appropriate categories on Instagram.
+After obtaining the image from midjourney, I add final touches, including a banner, headline text, and an emoji, to make the post Instagram-ready.
+Finally, I post the finished image and a fitting caption to Instagram. Initially, we used Facebook's official Graph API, but after the application was rejected, I resorted to an unofficial Instagram API. Despite the challenges, this method proved successful, enabling me to post images to the main feed and stories to their appropriate categories on Instagram.
 
 ![IG](https://raw.githubusercontent.com/ralphmartynward/ironhack_09_final-project/main/images/instagrampurr.png)
 
