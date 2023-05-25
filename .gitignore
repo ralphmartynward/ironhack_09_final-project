@@ -3,7 +3,6 @@ runs
 config
 data
 bert-checkpoint.pth
-.dockerignore
 app.py
-dockerfile
+docker
 main.ipynb
