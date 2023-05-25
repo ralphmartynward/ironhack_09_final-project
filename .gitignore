@@ -3,3 +3,5 @@ runs
 config
 data
 bert-checkpoint.pth
+.dockerignore
+app.py
