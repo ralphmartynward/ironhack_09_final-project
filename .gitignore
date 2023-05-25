@@ -5,3 +5,4 @@ data
 bert-checkpoint.pth
 .dockerignore
 app.py
+dockerfile
